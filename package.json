@@ -1,16 +1,16 @@
 {
-  "name": "@arifszn/gitprofile",
-  "description": "Create an automatic portfolio based on GitHub profile",
+  "name": "@non-sequitor/ayushi-portfolio",
+  "description": "Creating a portfolio based on GitHub profile",
   "version": "4.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "arifszn",
+  "author": "non-sequitor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
+    "url": "https://github.com/non-sequitor/"
   },
   "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
+    "url": "https://github.com/non-sequitor/ayushi-portfolio/issues"
   },
   "scripts": {
     "dev": "vite",
