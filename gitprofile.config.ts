@@ -13,10 +13,10 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 2, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['non-seq/my-project1', 'non-seq/my-project2']
+          projects: ['https://github.com/non-sequitor/in_Need', 'https://github.com/non-sequitor/notifier'], // These projects will not be displayed. example: ['non-seq/my-project1', 'non-seq/my-project2']
         },
       },
       manual: {
@@ -25,23 +25,23 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Work in Progress',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'NLP Trading Bot',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A bot built using NLP to perform sentiment analysis on news and predict stock prices.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            ' https://ai-signals.com/wp-content/uploads/2025/05/AI-Day-Trading-Bots.webp',
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Conversation Radar',
           description:
-            'eh idk',
+            'Would be disclosed soon...',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            '',
           link: 'https://example.com',
         },
       ],
@@ -106,11 +106,15 @@ const CONFIG = {
       name: 'Cisco Python Essentials',
       // body: 'Lorem ipsum dolor sit amet',
       year: 'June 2025',
-      link: 'https://example.com',
+      // link: 'https://example.com',
     },
     {
       name: 'CCNA Network Essentials',
       year: 'May 2025',
+    },
+    {
+      name: 'Java Masterclass- Udemy',
+      year: 'May 2023',
     },
   ],
   educations: [
@@ -131,7 +135,7 @@ const CONFIG = {
     {
       title: 'Deepfake Detection: Leveraging CNN-LSTM Architectures for Enhanced Spatial-Temporal Analysis',
       conferenceName: 'ICRAAI 2025',
-      journalName: 'Scopus Indexed Springer book series Lecture Notes in Networks and Systems (LNNS)',
+      journalName: '',
       authors: 'Ayushi V., Devansh Pratap Singh, Ameya K., Diwakar Mishra',
       link: 'https://drive.google.com/file/d/1y3nqMWjdoPmnrfDfqbLdQlBnUGiLTo8e/view?usp=sharing',
       description:
@@ -176,12 +180,12 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
+      // 'light',
       'dark',
       'cupcake',
       'bumblebee',
       'emerald',
-      'corporate',
+      // 'corporate',
       'synthwave',
       'retro',
       'cyberpunk',
@@ -220,7 +224,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/non-sequitor/ayushi-portfolio"
       target="_blank"
       rel="noreferrer"
-    >non-sequitor</a>, out of spite and pure neccessity `,
+    >non-sequitor</a>, out of spite and pure neccessity *sigh* `,
 
   enablePWA: true,
 };
