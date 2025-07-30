@@ -12,8 +12,8 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 2, // How many projects to display.
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['non-seq/my-project1', 'non-seq/my-project2']
@@ -71,6 +71,7 @@ const CONFIG = {
     'Java',
     'MySQL',
     'Python',
+    'Springboot',
     'Git',
     'JavaScript',
     'React.js',
@@ -171,7 +172,7 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: false,
+    displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -224,4 +225,4 @@ const CONFIG = {
   enablePWA: true,
 };
 
-// export default CONFIG;
+export default CONFIG;
