@@ -21,7 +21,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['non-sequitor/gitprofile', 'non-sequitor/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['non-sequitor/gitprofile', 'non-sequitor/pandora'], // List of repository names to display. example: ['non-seq/my-project1', 'non-seq/my-project2']
       },
     },
     external: {
@@ -134,7 +134,7 @@ const CONFIG = {
       authors: 'Ayushi V., Devansh Pratap Singh, Ameya K., Diwakar Mishra',
       link: 'https://drive.google.com/file/d/1y3nqMWjdoPmnrfDfqbLdQlBnUGiLTo8e/view?usp=sharing',
       description:
-        ' A hybrid deepfake detection model combining ResNeXt-50 CNN for spatial feature extraction and LSTM for temporal analysis. Achieved 80% accuracy on DFDC and FaceForensics++ datasets, effectively identifying frame-level inconsistencies and manipulation artifacts. Designed for scalable, real-time detection with future scope in explainable AI and media provenance.',
+        'A hybrid deepfake detection model combining ResNeXt-50 CNN for spatial feature extraction and LSTM for temporal analysis. Achieved 80% accuracy on DFDC and FaceForensics++ datasets, effectively identifying frame-level inconsistencies and manipulation artifacts. Designed for scalable, real-time detection with future scope in explainable AI and media provenance.',
     },
     // {
     //   title: 'Publication Title',
