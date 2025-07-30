@@ -132,24 +132,26 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Deepfake Detection: Leveraging CNN-LSTM Architectures for Enhanced Spatial-Temporal Analysis',
+      conferenceName: 'ICRAAI 2025',
+      journalName: 'Scopus Indexed Springer book series Lecture Notes in Networks and Systems (LNNS)',
+      authors: 'Ayushi V., Devansh Pratap Singh, Ameya K., Diwakar Mishra',
+      link: 'https://drive.google.com/file/d/1y3nqMWjdoPmnrfDfqbLdQlBnUGiLTo8e/view?usp=sharing',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        ' A hybrid deepfake detection model combining ResNeXt-50 CNN for spatial feature extraction and LSTM for temporal analysis. Achieved 80% accuracy on DFDC and FaceForensics++ datasets, effectively identifying frame-level inconsistencies and manipulation artifacts. Designed for scalable, real-time detection with future scope in explainable AI and media provenance.',
     },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: 'Conference Name',
+    //   journalName: '',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    // },
   ],
+
+  
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -173,7 +175,7 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
+    displayAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -217,13 +219,13 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/non-sequitor/ayushi-portfolio"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+//   footer: `Made with <a 
+//       class="text-primary" href="https://github.com/non-sequitor/ayushi-portfolio"
+//       target="_blank"
+//       rel="noreferrer"
+//     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
-};
+//   enablePWA: true,
+// };
 
 export default CONFIG;
