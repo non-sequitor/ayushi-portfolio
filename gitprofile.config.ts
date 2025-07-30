@@ -221,7 +221,7 @@ const CONFIG = {
 //       rel="noreferrer"
 //     >GitProfile</a> and ❤️`,
 
-//   enablePWA: true,
-// };
+  enablePWA: true,
+};
 
 export default CONFIG;
