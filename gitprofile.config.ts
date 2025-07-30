@@ -43,7 +43,7 @@ const CONFIG = {
         {
           title: 'Project Name',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'eh idk',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -61,7 +61,7 @@ const CONFIG = {
     // dribbble: '',
     // behance: '',
     // medium: '',
-    dev: 'https://dev.to/commit_issues',
+    dev: 'commit_issues',
     discord: '@sleep__404',
     website: '',
     phone: '',
