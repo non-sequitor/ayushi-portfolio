@@ -12,11 +12,11 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 2, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['https://github.com/non-sequitor/in_Need', 'https://github.com/non-sequitor/notifier'], // These projects will not be displayed. example: ['non-seq/my-project1', 'non-seq/my-project2']
+          projects: [], // These projects will not be displayed. example: ['non-seq/my-project1', 'non-seq/my-project2']
         },
       },
       manual: {
