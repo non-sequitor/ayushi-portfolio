@@ -47,7 +47,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio for Ayushi', description: '', imageURL: '' },
+  seo: { title: 'Your Friendly Neighbourhood Dev', description: '', imageURL: '' },
   social: {
     // linkedin: '',
     
